@@ -431,7 +431,18 @@ ul, li {
             }
         }
 
-
+        .ins{
+            margin:0;
+            width: 200px;
+            height:30px;
+            opacity:0;
+            color: #aaa;
+            position: absolute;
+            right: 0;
+            top: 150px;
+            margin: auto;
+            left: 650px;
+        }
 
         //第五屏结束
         //第六屏开始
@@ -621,6 +632,9 @@ ul, li {
                 animation: fadeInDown .5s $fiveTime forwards;
             }
             .five-info{
+                animation: fadeInDown .5s $fiveTime+.3 forwards;
+            }
+            .ins{
                 animation: fadeInDown .5s $fiveTime+.3 forwards;
             }
             .acaa{
